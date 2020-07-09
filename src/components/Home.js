@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import NewsItem from "./NewsItem";
 import {
   CarouselProvider,
@@ -9,8 +9,6 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import img from "../images/img.png";
-import img2 from "../images/img2.jpg";
-import img3 from "../images/img3.jpg";
 import corp1 from "../images/corp1.jpg";
 import corp2 from "../images/corp2.jpg";
 import corp3 from "../images/corp3.jpg";
@@ -21,8 +19,6 @@ import ny1 from "../images/ny1.jpg";
 import ny2 from "../images/ny2.jpg";
 import ny3 from "../images/ny3.jpg";
 import ny4 from "../images/ny4.jpg";
-import img4 from "../images/img4.jpg";
-import img5 from "../images/img5.jpg";
 import img6 from "../images/img6.jpg";
 import img7 from "../images/img7.jpg";
 import img8 from "../images/img8.jpg";
@@ -503,13 +499,6 @@ const Home = () => {
     },
   ];
 
-  const [text, setText] = useState(false);
-  const onClick = (e) => {
-    if (text === false) {
-      setText(true);
-    } else setText(false);
-  };
-
   return (
     <div>
       <h1 className='text-danger all-center'>AMERICAN TAX SOLUTIONS SCAM</h1>
@@ -528,8 +517,10 @@ const Home = () => {
           width: "100vw",
           height: "75vh",
         }}
+        alt='american tax solutions'
       />
       <img
+        alt='american tax solutions'
         src={hero}
         style={{
           width: "100vw",
