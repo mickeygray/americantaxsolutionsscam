@@ -501,7 +501,9 @@ const Home = () => {
 
   return (
     <div>
-      <h1 className='text-danger all-center'>AMERICAN TAX SOLUTIONS SCAM</h1>
+      <h1 className='text-danger all-center'>
+        AMERICAN TAX SOLUTIONS BETTER BUSINESS BUREAU
+      </h1>
       <h2 className='text-danger all-center'>
         AMERICAN TAX SOLUTIONS IS A SCAM
       </h2>
